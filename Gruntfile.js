@@ -57,5 +57,5 @@ module.exports = function(grunt) {
 	// ...
 	
 	// Задача по умолчанию
-	grunt.registerTask('default', ['concat', 'uglify']);
+	grunt.registerTask('default', ['jshint', 'concat', 'uglify']);
 };
